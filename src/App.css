@@ -80,3 +80,18 @@ h1{
   border-bottom: 5px solid #006aff !important;
   border: none;
 }
+.zm {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 200ms ease;
+}
+
+.zm:hover {
+  transform: scale(1.03);
+}
+.img_body {
+  cursor: pointer;
+  overflow: hidden;
+}
